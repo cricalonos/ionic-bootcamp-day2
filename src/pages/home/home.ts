@@ -17,7 +17,7 @@ export class HomePage {
   }
 
   detailPost(post: Post): void {
-    this.navCtrl.push('DetailPage', { 'post': post });
+    this.navCtrl.push('DetailPage', { post });
   }
 
 }
